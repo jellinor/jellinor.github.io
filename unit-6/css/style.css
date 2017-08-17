@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+* { margin:1em; padding:0; box-sizing:border-box; }
+header {
+	background-color: brown;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.container {
+	width: 100px
+	height: auto;
+}
+nav { 
+	background-color: #E8C66A;
+	border: 0px black solid;
+	padding: 50px;
+	font-weight:600; 
+}
+#left {
+	background-color: tan;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 45%;
+}
+#right {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+	body { 
+	text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+section {
+	background-color: #FFF;
+}
+
+#contact {
+	background-color: #FFC675;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+	h1{
+	font-size:8em;
+}
+
+
+h2{
+	font-size:4em
+
+}
+
+p {
+	color:#000;
+	text-align: left;
+}
+.description {
+	font-style: italic;
+	font-size-adjust:12em
+}
+a{
+	padding: 20px;
+}
+img { 
+	width:400px;
+}
+
