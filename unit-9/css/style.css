@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+* { margin:0; padding:0; box-sizing:border-box; }
+header {
+
+	border: 0px black solid;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+nav { 
+	background-color: #ee2c7b;
+	/*! border: 4px black solid; 
+	/*! padding: 15px; */
+	padding: 0;
+	text-align: center;
+	font-weight:150; 
+	font-size: 12px;
+}
+
+
+#logo {
+	/*! background-color: pink; */
+	/*! border: 1px black solid; */
+	/*! padding: 20px; */
+	/*! float: left; */
+	width: 36em;
+}
+
+
+#right {
+	background-color: white;
+	border: 0px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+	
+	body { 
+	/*! text-align: center; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+	section {
+	background-color: #FFF;
+}
+
+#contact {
+	background-color: #FFF;
+
+
+
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 20%;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+	h1{
+	font-size:5em;
+	color: #000;
+}
+
+
+	h2{
+	font-size:3em;
+	color: #000;
+}
+
+	h3{
+	font-size:2em;
+	color: #000;
+
+	}
+
+	h4{
+	font-size:2em;
+}
+
+
+
+
+#hero-headline {
+	color: #FFF;
+}
+	p {
+	color:#000;
+	text-align: left;
+
+}
+.description {
+	font-style: italic;
+	font-size-adjust:3em;
+}
+
+
+	img { 
+	width:100%;
+}
+
+
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+  padding: 2em;
+  text-align: center;
+  background: #ee2e7b;
+  color: #FFF;
+  text-decoration: none;
+  /*! margin: 0 .5%; */
+}
+.left {
+  width: 1200px;
+  margin: 2em;
+}
+  
+  #center > section {
+  width: 60%;
+  margin: auto;
+ 
+}
+.products h4 {margin-left: 1rem; }
+.left p {
+  padding: 0 3em;
+  text-align: left;
+  margin-top: 1em;
+}
+.intro {
+  text-align: center;
+  padding: 4em;
+  
+
+}
+.ingredients {
+  background: purple;
+  color: #000;
+  padding: 8em;
+  position: absolute;
+  right: 1em;
+}
+
+h5{
+	color:#ee2e7b;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size:2em;
+}
+	p {
+	color:#000;
+	text-align: left;
+	margin: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 26px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	img {
+		float: center; width; auto; }
+		
+	}
+
+	@media only screen and (max-width: 768px) {
+		.h4 {float: left; width; auto; }
+	
+	}
+
+@media only screen and (max-width: 768px) {.h4 {float: left; width; auto; }
+	
+	h2 {
+		font-size: 44px;
+
+	
+	
+	
+}
+
+@media only screen and (max-width: 500px) {.products {float: left; width; auto; }
+}
+
+width: 20%; 
+margin-left: 0%;
+float: left;
+}
+ 
+}
